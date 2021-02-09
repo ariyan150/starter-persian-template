@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Tanha;
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+    font-weight: normal;
+  }
+.container {
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.poster {
+    color: aqua;
+    font-size: 3rem;
+    font-family: Tanha;
+}
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: rgb(184, 184, 184);
+    transition: 200ms;
+    font-family: Tanha;
+}
+.link:hover {
+    color: rgb(255, 255, 255);
+    transform: scaleX(1.05);
+}

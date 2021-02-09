@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Mahsa;
+    src: url('http://fonts.codearena.ir/b/mahsa/mahsa.eot');
+    src: url('http://fonts.codearena.ir/b/mahsa/mahsa.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/mahsa/mahsa.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/mahsa/mahsa.ttf') format('truetype');
+    font-weight: normal;
+  }  
+.container {
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    font-family: Mahsa;
+}
